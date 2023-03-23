@@ -46,7 +46,7 @@ export const useFetch = () => {
 export const DeleteUser = (id) => {
   const db = getDatabase();
   const userRef = ref(db, "firecontact");
-  remove(ref(db, "firecontact/" + id));
+  remove(userRef(db, "firecontact/" + id));
 
   Toastify("Kullanıcı bilgisi silindi");
 };
