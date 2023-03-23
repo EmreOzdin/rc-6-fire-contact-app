@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDLrVwmFC7JBO4X1Ic1B1NZUzdbpme0ObM",
+  apiKey: "AIzaSyCEjOEovXKhFsk_-ADbOji9jbJ-G7pGSJ0",
   authDomain: "fire-contact-base-project.firebaseapp.com",
-  databaseURL: "https://fire-contact-base-project-default-rtdb.firebaseio.com",
-  projectId: "fire-contact-base-project",
-  storageBucket: "fire-contact-base-project.appspot.com",
-  messagingSenderId: "805121415965",
-  appId: "1:805121415965:web:926e1a4a2eab9d82d95ff4"
+  databaseURL: "https://fireapp-508af-default-rtdb.firebaseio.com/",
+  projectId: "fireapp-508af",
+  storageBucket: "gs://fireapp-508af.appspot.com",
+  messagingSenderId: "366662003509",
+  appId: "1:366662003509:web:926e1a4a2eab9d82d95ff4",
 };
 
 // Initialize Firebase
