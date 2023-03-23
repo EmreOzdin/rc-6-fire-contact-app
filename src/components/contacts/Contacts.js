@@ -6,8 +6,7 @@ import {
   TableHead,
   TableRow,
   TableBody,
-  rows,
-  Paper
+  Paper,
 } from "@mui/material";
 import { useFetch,DeleteUser } from "../../utils/functions";
 import DeleteIcon from '@mui/icons-material/Delete';
